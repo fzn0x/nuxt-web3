@@ -67,6 +67,8 @@ If you want to use default ethereum support by browser :
 
 ```js
 window.web3 = new this.$Web3(ethereum);
+//or
+window.web3 = new this.$Web3(window.ethereum);
 ```
 
 If you want to use configuration from nuxt.config.js.
