@@ -36,6 +36,45 @@ yarn add nuxt-web3 # or npm install nuxt-web3
 }
 ```
 
+## nuxt-web3 Configuration
+
+```js
+// nuxt.config.js
+export default {
+  modules: ["nuxt-web3"],
+  //....
+  web3: {
+    provider: "" // Used as fallback if no runtime config is provided
+  },
+
+  publicRuntimeConfig: {
+    web3: {
+      provider: process.env.WEB3_PROVIDER_URL
+    }
+  },
+
+  privateRuntimeConfig: {
+    web3: {
+      provider: process.env.PROVIDER_URL
+    }
+  }
+};
+```
+
+## Usage
+
+If you want to use default ethereum support by browser :
+
+```js
+window.web3 = new this.$Web3(ethereum);
+```
+
+If you want to use configuration from nuxt.config.js.
+
+```js
+window.web3 = new this.$web3();
+```
+
 ## Development
 
 1. Clone this repository
