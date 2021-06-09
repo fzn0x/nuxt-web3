@@ -75,6 +75,8 @@ If you want to use configuration from nuxt.config.js.
 window.web3 = new this.$web3;
 ```
 
+More example usage [click here](./example/pages/index.vue)
+
 ## Development
 
 1. Clone this repository
