@@ -1,0 +1,14 @@
+# Common
+node_modules
+dist
+.nuxt
+coverage
+
+example/
+test/
+
+# Plugin
+lib/plugin.js
+
+# Module
+lib/module.js
