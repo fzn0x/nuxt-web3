@@ -2,7 +2,6 @@
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
-[![Codecov][codecov-src]][codecov-href]
 [![License][license-src]][license-href]
 
 > Web3js module integration for Nuxt.js - Build dApps easier!
@@ -97,7 +96,5 @@ Copyright (c) fauzan121002
 [npm-version-href]: https://npmjs.com/package/nuxt-web3
 [npm-downloads-src]: https://img.shields.io/npm/dt/nuxt-web3.svg
 [npm-downloads-href]: https://npmjs.com/package/nuxt-web3
-[codecov-src]: https://img.shields.io/codecov/c/github/fauzan121002/nuxt-web3.svg
-[codecov-href]: https://codecov.io/gh/fauzan121002/nuxt-web3
 [license-src]: https://img.shields.io/npm/l/nuxt-web3.svg
 [license-href]: https://npmjs.com/package/nuxt-web3
