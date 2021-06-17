@@ -1,4 +1,4 @@
-# nuxt-web3
+![nuxt-web3](https://socialify.git.ci/fauzan121002/nuxt-web3/image?description=1&descriptionEditable=Web3.js%20module%20integration%20for%20Nuxt.js&forks=1&issues=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2FChainSafe%2Fweb3.js%2F1.x%2Fassets%2Flogo%2Fweb3js.jpg&owner=1&pulls=1&stargazers=1&theme=Light)
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
