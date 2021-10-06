@@ -4,7 +4,7 @@
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![License][license-src]][license-href]
 
-> Web3js module integration for Nuxt.js - Easy and simple!
+> Web3.js module integration for Nuxt.js - Easy and simple!
 
 [📖 **Release Notes**](./CHANGELOG.md)
 
