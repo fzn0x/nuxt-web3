@@ -88,8 +88,6 @@ More example usage [click here](./example/pages/index.vue)
 
 [MIT License](./LICENSE)
 
-Copyright (c) fauzan121002
-
 <!-- Badges -->
 
 [npm-version-src]: https://img.shields.io/npm/v/nuxt-web3/latest.svg
