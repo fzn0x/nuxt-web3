@@ -1,6 +1,6 @@
 import Web3 from "web3";
 
-export default (ctx, inject) => {
+export default function (ctx, inject) {
   // runtimeConfig
   const runtimeConfig = (ctx.$config && ctx.$config.web3) || {};
   // provider
