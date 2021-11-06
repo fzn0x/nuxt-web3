@@ -1,3 +1,9 @@
+## 0.0.6 (2021-11-06)
+
+chore(lib): add plugin to list
+chore(license): add year
+fix(examples): export as default #5
+
 ## 0.0.5 (2021-06-17)
 
 use ESM in module.js instead of CJS\
