@@ -1,12 +1,12 @@
 {
   "name": "nuxt-web3",
   "version": "0.0.6",
-  "description": "Web3.js module integration for Nuxt.js - Easy and simple!",
-  "repository": "fauzan121002/nuxt-web3",
+  "description": "🖖 Web3.js module integration for Nuxt",
+  "repository": "fzn0x/nuxt-web3",
   "license": "MIT",
   "contributors": [
     {
-      "name": "fauzan121002"
+      "name": "fzn0x"
     }
   ],
   "files": [

@@ -5,19 +5,17 @@
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![License][license-src]][license-href]
-  
+
 </div>
 
-> Web3.js module integration for Nuxt
-
-[📖 **Release Notes**](./CHANGELOG.md)
+Web3.js module integration for Nuxt
 
 ## Setup
 
 1. Add `nuxt-web3` dependency to your project
 
 ```bash
-yarn add nuxt-web3 # or npm install nuxt-web3
+yarn add nuxt-web3 # or npm i nuxt-web3
 ```
 
 2. Add `nuxt-web3` to the `modules` section of `nuxt.config.js`
@@ -25,21 +23,27 @@ yarn add nuxt-web3 # or npm install nuxt-web3
 ```js
 {
   modules: [
-    // Simple usage
     "nuxt-web3",
-
-    // With options
-    [
-      "nuxt-web3",
-      {
-        /* module options */
-      }
-    ]
   ];
 }
 ```
 
-## nuxt-web3 Configuration
+Or
+
+```js
+modules: [
+  "nuxt-web3",
+  // Or
+  [
+    "nuxt-web3",
+    {
+      /* module options */
+    }
+  ]
+];
+```
+
+### Module Options
 
 ```js
 // nuxt.config.js
@@ -66,7 +70,7 @@ export default {
 
 ## Usage
 
-If you want to use default ethereum support by browser :
+Using default ethereum window supported by the browsers :
 
 ```js
 window.web3 = new this.$Web3(ethereum);
@@ -74,23 +78,13 @@ window.web3 = new this.$Web3(ethereum);
 window.web3 = new this.$Web3(window.ethereum);
 ```
 
-If you want to use configuration from nuxt.config.js.
+Using configuration or custom provider from nuxt.config.js.
 
 ```js
 window.web3 = new this.$web3;
 ```
 
-More example usage [click here](./example/pages/index.vue)
-
-## Development
-
-1. Clone this repository
-2. Install dependencies using `yarn install` or `npm install`
-3. Start development server using `npm run dev`
-
-## License
-
-[MIT License](./LICENSE)
+[Example Usage](./example/pages/index.vue)
 
 <!-- Badges -->
 
