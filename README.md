@@ -6,9 +6,9 @@
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![License][license-src]][license-href]
 
-</div>
-
 Web3.js module integration for Nuxt
+
+</div>
 
 ## Setup
 
