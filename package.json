@@ -1,35 +1,32 @@
 {
-  "name": "nuxt-web3",
-  "version": "0.0.6",
-  "description": "🖖 Web3.js module integration for Nuxt",
-  "repository": "fzn0x/nuxt-web3",
+  "name": "my-module",
+  "version": "1.0.0",
   "license": "MIT",
-  "contributors": [
-    {
-      "name": "fzn0x"
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/module.mjs",
+      "require": "./dist/module.cjs"
     }
-  ],
+  },
+  "main": "./dist/module.cjs",
+  "types": "./dist/types.d.ts",
   "files": [
-    "lib",
-    "templates"
+    "dist"
   ],
-  "main": "lib/module.js",
   "scripts": {
-    "dev": "nuxt example",
-    "release": "git push --follow-tags && npm publish"
+    "prepack": "nuxt-module-build",
+    "dev": "nuxi dev playground",
+    "dev:build": "nuxi build playground",
+    "dev:prepare": "nuxt-module-build --stub && nuxi prepare playground"
   },
   "dependencies": {
-    "consola": "^2.15.3",
-    "defu": "^5.0.0",
+    "@nuxt/kit": "npm:@nuxt/kit-edge@latest",
     "web3": "^1.3.6"
   },
   "devDependencies": {
-    "@babel/core": "latest",
-    "@babel/preset-env": "latest",
-    "nuxt-edge": "latest",
-    "standard-version": "latest"
-  },
-  "publishConfig": {
-    "access": "public"
+    "@nuxt/module-builder": "latest",
+    "@nuxtjs/eslint-config-typescript": "latest",
+    "nuxt3": "latest"
   }
 }
